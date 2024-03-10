@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">BooKings</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+
+
+
+
+    <string-array name="faq_questions">
+        <item>-Wie kann ich eine Buchung vornehmen? \n->Um eine Reservierung vorzunehmen, wählen Sie zunächst die Dienstleistung aus, die Sie in Anspruch nehmen möchten. Geben Sie dann die erforderlichen Informationen wie Datum, Uhrzeit und persönliche Daten ein. Überprüfen Sie alle Angaben sorgfältig und bestätigen Sie die Buchung. Anschließend erhalten Sie eine Buchungsbestätigung per E-Mail oder SMS.</item>
+        <item>-Kann ich meine Buchung stornieren oder ändern? \n->Ja, Sie können Ihre Reservierung stornieren oder ändern. Gehen Sie zu Ihrer Buchungsliste, dort können Sie Ihre Buchung stornieren oder ändern. Bitte beachten Sie eventuelle Fristen und Gebühren.</item>
+        <item>-Wie erhalte ich meine Buchungsbestätigung? \n->Ihre Buchungsbestätigung erhalten Sie in der Regel unmittelbar nach der Buchung per E-Mail. Bitte überprüfen Sie auch Ihren Spam-Ordner, falls die Bestätigung nicht in Ihrem Posteingang erscheint.</item>
+        <item>-Wie kann ich den Kundendienst kontaktieren, falls ich Hilfe benötige? \n-></item>
+    </string-array>
+</resources>

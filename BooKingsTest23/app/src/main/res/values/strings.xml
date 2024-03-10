@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BooKings</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    </resources>
+

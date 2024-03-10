@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/lilabg">
+
+    <TextView
+        android:id="@+id/tvEventroomTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rooms - Eventroom"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tvChooseSlot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please select the Date of your choice:"
+        android:gravity="center"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/dateTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Select Date"
+        android:padding="16dp"
+        android:background="@android:drawable/editbox_background"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/timeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Select Check-In Time"
+        android:padding="16dp"
+        android:background="@android:drawable/editbox_background"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginTop="8dp"/>
+
+    <NumberPicker
+        android:id="@+id/numberPicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:id="@+id/bookButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book Room"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/tvEnjoy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enjoy and thank you!"
+        android:gravity="center"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"/>
+</LinearLayout>

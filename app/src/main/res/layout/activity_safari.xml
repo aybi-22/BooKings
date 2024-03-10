@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/lilabg">
+
+    <TextView
+        android:id="@+id/tvSafariTourTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Activities - Safari Tour"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"
+        android:textStyle="bold"
+        android:textSize="28dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/tvChooseSlot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please select the slot of your choice:"
+        android:gravity="center"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/dateTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Select Date"
+        android:padding="16dp"
+        android:background="@android:drawable/editbox_background"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/timeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Select Time"
+        android:padding="16dp"
+        android:background="@android:drawable/editbox_background"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/personTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Select the number of People:"
+        android:padding="16dp"
+        android:focusable="true"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <NumberPicker
+        android:id="@+id/numberPicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"/>
+
+
+    <Button
+        android:id="@+id/bookSlotButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book Slot"
+        android:layout_marginTop="16dp"/>
+
+
+    <TextView
+        android:id="@+id/tvMeetingInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="We are meeting at the Lobby 15 minutes before the slot begins."
+        android:gravity="center"
+        android:layout_marginTop="24dp"/>
+
+    <TextView
+        android:id="@+id/tvEnjoy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enjoy and thank you!"
+        android:gravity="center"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"/>
+</LinearLayout>
